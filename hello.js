@@ -36,7 +36,7 @@ var cowsay = require("cowsay");
 
 console.log(
   cowsay.say({
-    text:'hello Prakash',
+    text: "hello Prakash jaiswal",
     e: "pp",
     T: "t",
   })
@@ -46,4 +46,4 @@ console.log(
 
 // console.log(Quote.getQuote()); // returns quote (text and author)
 //console.log(Quote.getQuote({ author: false }));// return quote without author
- console.log(Quote.getRandomQuote()); // return any random quote
+console.log(Quote.getRandomQuote()); // return any random quote
